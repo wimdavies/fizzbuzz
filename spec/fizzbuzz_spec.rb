@@ -23,3 +23,21 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(9)).to eq 'fizz'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns "buzz" when passed 5' do
+    expect(fizzbuzz(5)).to eq 'buzz'
+  end
+end
+
+describe 'fizzbuzz' do
+  it 'returns "buzz" when passed 10' do
+    expect(fizzbuzz(10)).to eq 'buzz'
+  end
+end
+
+describe 'fizzbuzz' do
+  it "returns 'buzz' when passed 20" do
+    expect(fizzbuzz(20)).to eq 'buzz'
+  end
+end
